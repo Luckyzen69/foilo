@@ -4,6 +4,23 @@
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
 }
+@media screen and (max-width: 600px){
+    h1{ 
+        font-size: 5rem;
+    font-weight: 600;
+    }
+    .container{
+        width: 100%;
+        min-height: 50px;
+        background-color:aliceblue;
+        top: auto;
+        bottom: 0;
+        align-items: top;
+        justify-content: space-between;
+        padding: 0 10px;
+       
+    }
+}
 html{
     overflow-y: scroll;
 }
@@ -85,7 +102,7 @@ b{
     position: absolute;
     content: '';
     height: 4px;
-    weight:45px;
+    width:45px;
     bottom:10px;
     background-color: #7f00ff;
 }
@@ -158,8 +175,8 @@ header.sticky{
     padding: 12px 15%;
 }
 .services{
-    background: var(--second-bg-color);
-    background-color: #352e2e;
+    background: linear-gradient(#FC466B,#6A82FB);
+    
 }
 .main-text{
     text-align: center;
@@ -200,12 +217,12 @@ main-text p{
     font-size: 1rem;
     color: var(--second-color);
     line-height: 1.8;
-    margin-bottom 25px;
+    margin-bottom: 25px;
 }
 .read{
     display: inline-block;
     padding: 8px 18px;
-    background: #333333;
+    background: linear-gradient(lightblue,lightgreen);
     color: var(--second-color);
     font-size:14px;
     border-radius: 8px;
@@ -219,4 +236,8 @@ main-text p{
 .box:hover{
     transform: translateY(-8px);
     cursor: pointer;
+}
+p{
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
