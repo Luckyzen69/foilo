@@ -14,19 +14,21 @@
 </head>
 <body>
  <script src="script.js"> </script> 
+ <!--header-->
  <div class="container">
         <nav>
-            <div class="logo">foilo<b>.</b></div>
+          <div class="logo">foilo<b>.</b></div>
           <ul class="navItems">
             <li><a href="#home" class="active">home</a></li>
-            <li><a href="#about">about</a></li>
+            <li><a href="about">about</a></li>
             <li><a href="#service">skills</a></li>
             <li><a href="#blog">blog</a></li>
           </ul>
           <div class="links">
            <a href="#"><i class="fab fa-linkedin"></i></a>
-           <a href="#"><i class="fab fa-twitter"></i></a>
-           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="https://twitter.com/LuckyzenxD" target="_blank"><i class="fab fa-twitter"></i></a>
+           <a href="https://www.instagram.com/lagzenthakuri/" target="_blank"><i class="fab fa-instagram"></i></a>
+           <a href="https://www.youtube.com/channel/UCQmp909J8KpqHM32EbYfyKQ" target="_blank"><i class="fab fa-youtube"></i></a>
           </div>
         </nav>
         <div class="wrapper">
@@ -35,14 +37,14 @@
             <h1> I'm <span class="multiText">coder</span></h1>
             <p1>I love Programming. </p1>
             <div class="btns">
-              <button>download CV</button>
+              <button onclick="MyCv">download CV</button>
               <button> contact me </button>
             </div>
           </div>
           <div class="cols cols1">
             <div class="imgbox">
               <img src="" id="splash">
-              <img src="blackclover.png">
+              <img src="./assest image/blackclover.png">
             </div>
           </div>
         </div>
@@ -50,7 +52,7 @@
       <!----about section---->
       <section class="about">
         <div class="main">
-          <img  src="samurai.png" >
+          <img  src="./assest image/samurai.png" >
         </div>
         <div class="about-text">
         <h2>About me</h2>
@@ -63,13 +65,13 @@
       <!--skills -->
       <section class="services" id="services">
         <div class="main-text">
-          <h1> What I am Expert In</h1>
+          <h2> What I am Expert In</h2>
           <h2><span>My</span> service</h2>
         </div>
         <div class="services-content">
           <div class="box">
                <div class="s-icons">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJBJREFUSEvtlE0OQDAUhD+nsBYWDiK2LuMQTiSxcA4r1m5BiIq/Iq1KmrTbduZ7b9KMh+HjGfbnd0AGFECsuFkD5EAp9McNesBXNBeyDghlgGG5UI3upD8aOYCL6PEDu4gsiGjqkeBxzvsHLRDJuigFKk1AAtRXAPHFNP1X+dxz27IzDvhq8p2Pau+/HsZ+wAifXyEZA1BA5wAAAABJRU5ErkJggg=="/>
+                <i class="fa-solid fa-laptop"></i>
           </div>
            <h3>web Design</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis porro, dolorum exercitationem molestiae modi eveniet debitis voluptates non illo nam odio, facilis, nesciunt cupiditate nulla eos magnam. Ullam, voluptatum amet.</p>
@@ -77,16 +79,15 @@
         </div>
         <div class="box">
           <div class="s-icons">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAU1JREFUSEvN1c0rrVEUx/HPiVukvJSJmQyUkUg3/AckIwPFQKaKjCUv3bEimVJSMjLwkrkYyMtMKRMjE2Gibt2u266jcM/j2c/RiT1e6/dd+7fWXjunxCdXYn2FAM+fhL7R/BJAuECxt/iv4KQePKI6o1Uhp/Z9ThLgAq0ZAedojwX8wlRGwBxmYwGNuMKPSMhvNOMmFhDixrEYCRjDSqHYtIc2igXUJIAeMIm1pELSACGvE8cJAh04/eiWMYAuHJUK0I0d1GEJE3nQMoLv9+jHYTEW9WEbZdjHAJ7yQlXYQi/+IMQeZGlyGNNLVGATQ/j7TqAc6xjMg1uyjOk8prGXry5pN4Ue7qIHMwh5b05Sk8/QhmFspLyFEaziBD9jAcHrSjTgNgXQhGvcoT4W8GJJzBi/Xu9R67rYv+Cl+O/xo0XuuPSwWI/TlRIi/gFLvDcZtjuUAgAAAABJRU5ErkJggg=="/>
+            <i class="fa-regular fa-window-restore"></i>
                </div>
       <h3>web developer </h3>
      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis porro, dolorum exercitationem molestiae modi eveniet debitis voluptates non illo nam odio, facilis, nesciunt cupiditate nulla eos magnam. Ullam, voluptatum amet.</p>
-     <a href="#" class="read">Read</a>
+     <a href="" class="read">Read</a>
    </div>
    <div class="box">
     <div class="s-icons">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAaVJREFUSEu11U+ITlEYx/HPsJJ/Rdkyxp5mUpISs2Ch1Mz4NzFlp9hZ+LNHyBJLTUnMwoKlIVGKBfZTxqxHSopmMeipc+t0u/e97/uOe5f3nPP7Ps/vPL97B7T8DLSsr1/AIOa7Ka4fwA7M4T32NEH6AUxhGs9wtA3AfZzDVdxoA/AZO3EAr1cC2IoTuJWJrMUPrMI6/MIlPMZCFazuDkYxg004lQTifFT9Ch8xktYe4TuO42UZUgW4iJtYjac4jd/p4BVcx11cwBo8xBiWUzd3ckgOiM0Pki1/EGK5PXHuOY7gTBIutC7jWrLuCc4WRRWA8PQt9uInxvGiwtNv2IwhfCmtH062rsc77MPfAhB2xETEy7jECcyWBIqALWJLBfwQovqNqdj9OSD2ly2Ktm9nQp0C1mhRXlD5kiexhKqA9XTJOSQf05Op9U/YhWj9TdocI9zzmBagbTiWbCoCFmsbUsDyCYqgfe0laOW9B1OIoovhps9DXQ46nYsPW8z5PZxvA1AXsEZWt/+DD9hdE7COkG4BIbK9Ir3/rYNGoboNvXTQF+Qf5XVaGeSEFeMAAAAASUVORK5CYII="/>
-</div>
+      <i class="fa-solid fa-code"></i>
 <h3>Programming</h3>
 <p>Lorem ipsum dolor, sit met consectetur adipisicing elit. Quis porro, dolorum exercitationem molestiae modi eveniet debitis voluptates non illo nam odio, facilis, nesciunt cupiditate nulla eos magnam. Ullam, voluptatum amet.</p>
 <a href="#" class="read">Read</a>
@@ -95,10 +96,10 @@
       </section>
      <section class="blog">
       <div class="about">
-        <h1> My Blog</h1>
+        <h2> My Blog</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque reiciendis velit cupiditate adipisci sequi, quibusdam omnis aliquid, laudantium neque nisi sit, placeat nihil assumenda voluptate id iure et illo reprehenderit.</p>
         <div class="img">
-          <img src="pngegg.png">
+          <img src="./assest image/pngegg.png">
         </div>
       </div>
      </section>
