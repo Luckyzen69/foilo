@@ -118,7 +118,6 @@ h1{
 }
 button{
     outline: none;
-    border: none;
     cursor: pointer;
     font-size: 25px;
     font-weight: 400;
