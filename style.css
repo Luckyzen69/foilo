@@ -163,7 +163,13 @@ button.hover{
 }
 h2{
     color: aliceblue;
+    font-size: 100px;
+    text-align: center;
+    
 
+}
+h3{
+    font-size: 50px;
 }
 p1{
     color: aqua;
@@ -181,7 +187,7 @@ header.sticky{
     text-align: center;
 }
 main-text p{
-    color: var(--second-color);
+    color: var(--second-color)  ;
     font-size: 15px;
     margin-bottom: 15px;
 }
@@ -237,6 +243,28 @@ main-text p{
     cursor: pointer;
 }
 p{
-    color: blueviolet;
+    color:white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
+/* Define the keyframe animation */
+@keyframes myAnimation {
+        0% {
+          transform: translateX(50%);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(10);
+          opacity: 1;
+        }
+      }
+      
+      .element {
+        animation-name: slideIn;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+      }
+      .img{
+        align-items:center;
+        justify-content: center;
+      }

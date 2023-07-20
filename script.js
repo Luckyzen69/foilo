@@ -3,7 +3,7 @@ window.addEventListener ("scroll",function(){
     header.classList.toggle ("sticky",window.scrollY > 100);
 });
 function MyCv(){
-    var link = document.createElement('link');
+    var link = document.createElement('a');
     //creating a downloading file
     link.href = 'file:///C:/Users/thaku/Documents/GitHub/foilo/assest%20image/mycv.pdf';
     link.download = 'LagzenThakuri.png';
