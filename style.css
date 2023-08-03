@@ -128,8 +128,9 @@ button{
     letter-spacing: 2px;
     text-transform: capitalize;
     box-shadow: 0 15px 10px rgb(0,0,0,0.4);
+    border-radius: 10px;
 }
-button.hover{
+button:hover{
     background-color: #7f00ff;
 }
 .imgbox{
@@ -172,7 +173,8 @@ h3{
     font-size: 50px;
 }
 p1{
-    color: aqua;
+    color:magenta;
+    font-size: 25px;
 }
 header.sticky{
     background: var(--bg-color);
@@ -267,4 +269,21 @@ p{
       .img{
         align-items:center;
         justify-content: center;
+      }
+      .creativity{
+        border: 1px solid ;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 5px;
+        background-color:#3d535f;
+        color: white;
+        font-weight: 400px;
+        font-size: 30px;
+        text-decoration: none;
+        box-shadow: 0 15px 10px rgb(0,0,0,0.4);
+        text-transform: capitalize;
+        letter-spacing: 2px;
+      }
+      .creativity:hover{
+        color:lightseagreen
       }
