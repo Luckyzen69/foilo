@@ -31,6 +31,7 @@ body{
     width: 100%;
     min-height: 100vh;
     background-color:aliceblue;
+
 }
 nav{
     display: flex;
@@ -38,7 +39,10 @@ nav{
     justify-content:space-around;
     height: 100px;
     z-index: 111;
-    background-color:grey;
+    background-color:white;
+    position: fixed;
+    padding-bottom: 0.5px;
+    margin-bottom: 0.5px;
  
 }
 .logo{
