@@ -42,7 +42,7 @@ nav{
     justify-content:space-around;
     height: 100px;
     z-index: 111;
-    background-color:white;
+    background-color:grey;
     position: fixed;
     padding-bottom: 0.5px;
     margin-bottom: 0.5px;
@@ -52,12 +52,12 @@ nav{
     display: flex;
     font-size: 40px;
     font-weight: 800;
-    color: #3f533f;
+    color:grey;
     letter-spacing: 3px;
     cursor: pointer;
     text-transform: uppercase;
 }
-b{
+.btns{
     font-size: 70px;
     color: #7f00ff;
 }
