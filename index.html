@@ -9,23 +9,34 @@
       <meta name="keywords" content="Lagzen Thakuri">
       <meta name="description" content="I am Lagzen Thakuri who is currently practicing to be a full-stack web developer in future and a game developer">
       <title>Lagzen Thakuri</title>
-      <link  type="image/png" rel="icons" href = "./assest image/L_128x128.png">
+      <link  type="icon" rel="icon" href = "./assest image/L_128x128.png">
     <link rel="stylesheet" href=
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
 </link>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
     <link rel="stylesheet" href="style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,200&family=IBM+Plex+Serif:wght@100&family=Rubik:ital,wght@0,300;1,300&display=swap');
+    </style>
+    
 </head>
 <body>
  <script src="script.js"> </script> 
  <!--header-->
  <div class="container">
-        <nav>
-          <div class="logo">
-            foilo<b>.</b>
-          </div>
-          <ul class="navItems">
+   <nav >
+     <div class="logo">
+       foilo<b>.</b>
+      </div>
+      <img onclick='document.getElementById("sidebar").classList.add("active")' src="./assest image/bars-solid.svg" class="menu" alt="men-bar" width="25px"  height="25px">
+      
+      <div class="sidebar"  id="sidebar">
+        <img onclick='document.getElementById("sidebar").classList.remove("active")' src="./assest image/x-solid.svg" class="cross" alt="cross" width="15px" height="15px" >
+         
+          <ul class="navItems" id="sidebar">
             <li>
-              <a href="#home" class="active">home</a>
+              <a href="#home" >home</a>
             </li>
             <li>
               <a href="#aboutme">about</a>
@@ -34,22 +45,19 @@
               <a href="#services">skills</a>
             </li>
             <li>
-              <a href="#blog">blog</a>
+              <a href="#projects">projects</a>
             </li>
           </ul>
-          <div class="links">
-           <a href="#"><i class="fab fa-linkedin"></i></a>
-           <a href="https://twitter.com/LuckyzenxD" target="_blank"><i class="fab fa-twitter"></i></a>
-           <a href="https://www.instagram.com/lagzenthakuri/" target="_blank"><i class="fab fa-instagram"></i></a>
-           <a href="https://www.youtube.com/channel/UCQmp909J8KpqHM32EbYfyKQ" target="_blank"><i class="fab fa-youtube"></i></a>
-          </div>
+          
         </nav>
-        <div class="wrapper">
-          <div class="cols cols0">
+       </div>
+        <section id="home" class="sticky" ></section>
+        <div class="wrapper" style="background-image: url(./images/wallpaperflare.com_wallpaper.jpg);background-size: cover;height: 690px;padding-top: 80px;">
+          <div class="cols">
             <span class="topline">Hello</span>
-            <h1> I'm <span class="multiText">coder</span></h1>
+            <h1> I'm <span class="multiText">lagzen Thakuri</span></h1>
             <p1>
-              CODING IS LOVE
+              I am a Programmer.
              </p1>
             <div class="btns">
               <a href="./assest image/mycv.pdf" class="creativity">Download</a>
@@ -58,32 +66,29 @@
               </button>
             </div>
           </div>
-          <div class="cols cols1">
+          <!-- <div class="cols cols1">
             <div class="imgbox">
-              <img src="" id="splash">
-              <img src="./assest image/blackclover.png">
-            </div>
+              <img src="./assest image/blackclover.png"  id="splash">
+            </div> -->
           </div>
         </div>
       </div>
       <!----about section---->
-      <section class ="about" id="aboutme">
-        <div id="main">
+      <section class ="about sticky" id="aboutme" style="background-image: url(./images/wallpaperflare.com_wallpaper\ \(2\).jpg);background-size: cover;height: 690px;padding-top: 80px;">
+        <!-- <div id="main">
           <img  src="./assest image/samurai.png" >
-        </div>
+        </div> -->
         <div class="about-text">
         <h2>
-          About me
+          about me
         </h2>
-        <p1>
-          My name is Lagzen Thakuri. I am an junior level front end developer.
-        </p1>
-      </div><div class="img">
+        <p1>I am ..................</p1>
+      <!-- </div><div class="img">
         <img src="./assest image/bg_removerdme.png" alt="image">
-      </div>
+      </div> -->
       </section>
       <!--skills -->
-      <section class="services" id="services">
+      <section class="services sticky" id="services">
         <div class="main-text">
           <h3>
              What I Am Expert In
@@ -117,28 +122,39 @@
    <div class="box">
     <div class="s-icons">
       <i class="fa-solid fa-code"></i>
-<h3>
-  Programming
-</h3>
-<p>
-  In an era of IT (Information Technology) everybody wants to be a `Programmer. It is most common in this era of computer. I am also focusing on being one of the tech guy.</p>
-<a href="#" class="read">Read</a>
-</div>
+         <h3>Programming</h3>
+      <p>
+          In an era of IT (Information Technology) everybody wants to be a `Programmer. It is most common in this era of computer. I am also focusing on being one of the tech guy.</p>
+       <a href="#" class="read">Read</a>
+          </div>
         </div>
       </section>
-     <section class ="blog" id="blog">
-       <div class="about">
-         <h2> My Blog</h2>
-         <p>Recently, I have joined a tech company which also has a institution for intershi[p oppurtunity. After three month of class, I can finally work in an intern as full-stack web developer <br>The course i am learning is called MERN which stands for Mongodb, Express, React and Next.js which is main back-end web developer</p>
-         <div class="img">
-           <img src="./assest image/pngegg.png">
-          </div> 
-          <div class="element" style="animation-name: myAnimation; animation-duration: 2s; animation-timing-function: ease-in-out; animation-iteration-count: infinite;">
-          <h1>hello   welcome to my Blog</h1>
+      <section id="porfoilo" class="sticky" style="background-image: url(./images/schwarzer-schlichter-beton-strukturierter-hintergrund.jpg);background-size: cover;height: 700px;padding-top: 80px;">
+        <h2>My certificates</h2>
+        <img src="./assest image/750-subs.png" alt="">
+      </section>
+     <section id="project">
+      <h2>Projects</h2>
+      <div class="link1" onclick="location.href='https://luckyzen69.github.io/e-commerce/#'">
+        <h3>Project 1</h3>
+            <img src="./assest image/e-commerce.png" alt="Project 1">
+            <p>E-commerce Webiste which is ongoing project</p>
+            <a href="https://luckyzen69.github.io/e-commerce/#">Learn More</a>
       </div>
-     
+        </section>
       </div>
-
      </section>
+     <footer>
+     <section id="info">
+      <div class="links">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Luckyzen69"><i class="fa-brands fa-github"></i></a>
+        <a href="https://twitter.com/LuckyzenxD" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/lagzenthakuri/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCQmp909J8KpqHM32EbYfyKQ" target="_blank"><i class="fab fa-youtube"></i></a>
+       </div>
+        <p>&copy; 2023 Lagzen Thakuri</p>
+      </section>
+    </footer>
     </body>
 </html>
