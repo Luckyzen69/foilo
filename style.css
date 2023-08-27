@@ -329,15 +329,17 @@ main-text p {
         padding: 1rem;
         top: 0;
         right: 0;
-        left: 10px;
         bottom: 0;
         gap: 1rem;
         transition: all 1s;
         
+        
       }
-      nav .active{
+      .sidebar ul li a{
+        color: blue;
+      }
+      .sidebar.active{
         transform: translateX(0%  );
-        margin-left: 650px;
       }
       nav ul{
         align-items: center;
