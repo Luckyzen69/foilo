@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,200&family=IBM+Plex+Serif:wght@100&family=Rubik:ital,wght@0,300;1,300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -206,7 +208,6 @@ header.sticky {
 .services {
   background: linear-gradient(#fc466b, #6a82fb);
   background: cover;
-  height: 690px;
 }
 .main-text {
   text-align: center;
@@ -328,15 +329,17 @@ main-text p {
         padding: 1rem;
         top: 0;
         right: 0;
-        left: 10px;
         bottom: 0;
         gap: 1rem;
         transition: all 1s;
         
+        
       }
-      nav .active{
+      .sidebar ul li a{
+        color: blue;
+      }
+      .sidebar.active{
         transform: translateX(0%  );
-        margin-left: 650px;
       }
       nav ul{
         align-items: center;
@@ -362,5 +365,12 @@ main-text p {
       }
       .active{
         color: var(--primary-color);
+      }
+      #porfoilo{
+        height: 900px;
+      }
+      #project{
+
+        height: 890px;
       }
 }
