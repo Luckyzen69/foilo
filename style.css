@@ -298,26 +298,52 @@ main-text p {
 #project {
   border: 1px solid;
   border-collapse: collapse;
-  display: grid;
+  display:flex;
+  position: relative;
   margin: 5px;
   width: 100%;
   font-family: "IBM Plex Mono", monospace;
   font-family: "IBM Plex Serif", serif;
   font-family: "Rubik", sans-serif;
   background: linear-gradient(#a1c4fd ,#c2e9fb);
-  height: 650px;
-  
+  height: 690px;
 }
 #project .link1 {
+  position: absolute;
   border: 1px solid;
   font-family: "IBM Plex Mono", monospace;
   font-family: "IBM Plex Serif", serif;
   font-family: "Rubik", sans-serif;
   width: 250px;
   margin: 10px;
+  bottom: 100px;
+  background-color:whitesmoke;
+  height: 350px;
+
+}
+#project h2{
+  justify-content: center;
+  position: absolute;
+  display: grid;
+  left: 500px;
+  text-align: center;
+  color: #333;
+}
+#project .link2 {
+  border: 1px solid;
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "IBM Plex Serif", serif;
+  font-family: "Rubik", sans-serif;
+  width: 250px;
+  height: 350px;
+  position: absolute;
+  bottom: 100px;
+  left:300px;
+
+  margin: 10px;
   background-color:whitesmoke;
 }
-.link1 img {
+.link1 img,.link2 img {
   height: 189px;
   width: 189px;
 }
@@ -373,4 +399,12 @@ main-text p {
 
         height: 890px;
       }
+      #project h2{
+        position: absolute;
+        display: grid;
+        left: 200px;
+        text-align: center;
+        color: #333;
+      }
+     
 }
