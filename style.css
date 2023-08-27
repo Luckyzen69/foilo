@@ -208,7 +208,6 @@ header.sticky {
 .services {
   background: linear-gradient(#fc466b, #6a82fb);
   background: cover;
-  height: 690px;
 }
 .main-text {
   text-align: center;
@@ -364,5 +363,12 @@ main-text p {
       }
       .active{
         color: var(--primary-color);
+      }
+      #porfoilo{
+        height: 900px;
+      }
+      #project{
+
+        height: 890px;
       }
 }
