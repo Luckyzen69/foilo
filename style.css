@@ -347,6 +347,12 @@ main-text p {
   height: 189px;
   width: 189px;
 }
+.coffee{
+  align-items: center;
+}
+.coffee img{
+  align-items: center;
+}
 @media (max-width:1024px){
     .sidebar{
         transform: translateX(100%);
