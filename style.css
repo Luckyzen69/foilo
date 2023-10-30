@@ -178,6 +178,24 @@ button:hover {
 .about-text {
   width: 550px;
 }
+.welcome{
+  display: grid;
+}
+.welcome-text{
+  font-size: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .welcome-text {
+    font-size: 50px;
+  }
+  .projects{
+    grid-template-rows: 1fr
+  }
+}
+.projects{
+  display: grid;
+  grid-template-rows: 1fr
+}
 .main {
   width: 1130px;
   max-width: 95%;
